@@ -3,16 +3,17 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Empire State Building, Empire State Building, Sample Headline">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Sobre</title>
+    <title>Visualizador</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Sobre.css" media="screen">
+<link rel="stylesheet" href="Visualizador.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -22,7 +23,7 @@
 		"sameAs": []
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Sobre">
+    <meta property="og:title" content="Visualizador">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-1696"><div class="u-clearfix u-sheet u-sheet-1">
@@ -59,7 +60,90 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header> 
+      </div></header>
+    <section class="u-clearfix u-section-1" id="sec-0af0">
+      <div class="u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-14 u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1">
+                <h2 class="u-text u-text-1">Rede de Vigilancia Comunitári<span style="font-weight: 700;"></span>a
+                </h2>
+                <div class="u-align-right u-border-1 u-border-grey-10 u-container-style u-custom-color-1 u-group u-radius-20 u-shape-round u-group-1">
+                  <div class="u-container-layout u-container-layout-2">
+                    <div class="u-align-left u-expanded-width u-list u-list-1">
+                      <div class="u-repeater u-repeater-1">
+                        <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                          <div class="u-container-layout u-similar-container u-container-layout-3">
+                            <div class="u-align-center u-clearfix u-custom-html u-custom-html-1">'<iframe width="100%" height="100%" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen=""></iframe>'
+                            </div>
+                            <p class="u-small-text u-text u-text-default u-text-variant u-text-2">Rua André Nadolny, 762</p>
+                            <p class="u-small-text u-text u-text-default u-text-palette-1-base u-text-variant u-text-3">Colombo-PR</p>
+                          </div>
+                        </div>
+                        <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                          <div class="u-container-layout u-similar-container u-container-layout-4">
+                            <div class="u-align-center u-clearfix u-custom-html u-custom-html-2">'<iframe width="100%" height="100%" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen=""></iframe>'
+                            </div>
+                            <p class="u-small-text u-text u-text-default u-text-variant u-text-4">Rua Alferes M. Machado, 721</p>
+                            <p class="u-small-text u-text u-text-default u-text-palette-1-base u-text-variant u-text-5">Curitiba-PR</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-46 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-5">
+                <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-group u-radius-20 u-shape-round u-group-2">
+                  <div class="u-container-layout u-container-layout-6">
+                    <div class="u-clearfix u-custom-html u-custom-html-3">
+                      <meta charset="UTF-8">
+                      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <title></title>
+                      <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+                      <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+                      <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
+                      <div id="map"></div>
+                      <div id="popup" class="ol-popup">
+                        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                        <div id="popup-content"></div>
+                      </div>
+                      <script> // Where you want to render the map.
+        var element = document.getElementById('map');
+        // Height has to be set. You can do this in CSS too.
+        element.style = 'height:800px;';
+        // Create Leaflet map on map element.
+        var map = L.map(element);
+        // Add OSM tile layer to the Leaflet map.
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        // Target's GPS coordinates.
+        var target = L.latLng('-25.351856', '-49.206605');
+        var cond_01 = L.latLng('-25.353510', '-49.207215');
+        // Set map's center to target with zoom 14.
+        map.setView(target, 17);
+        // Place a marker on the same location.
+        L.marker(target).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
+        L.marker(cond_01).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
+        //POP-UP
+        // create the popup
+        const popup = new mapboxgl.Popup({ offset: 25 }).setText(
+            'Construction on the Washington Monument began in 1848.'
+        ); </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     
     
     <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a"><div class="u-clearfix u-sheet u-sheet-1">
@@ -90,8 +174,8 @@
         </p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
+      <a class="u-link" href="html-templates" target="_blank">
+        <span>HTML Template</span>
       </a>
       <p class="u-text">
         <span>created with</span>
