@@ -199,13 +199,14 @@
   .u-section-1 .u-image-1 {
     width: 540px;
     height: 324px;
-    margin-top: -287px;
-    margin-left: calc(((100% - 540px) / 2));
+    margin-top: -61px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 540px;
-    margin-top: -1029px;
+    margin-top: -1255px;
+    margin-bottom: 60px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -227,7 +228,6 @@
     width: 340px;
     height: 204px;
     margin-top: 112px;
-    margin-left: auto;
   }
 
   .u-section-1 .u-layout-wrap-1 {
