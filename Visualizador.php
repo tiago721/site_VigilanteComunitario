@@ -19,6 +19,7 @@ include('verifica_login.php');
   <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
 
 
+
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -34,9 +35,58 @@ include('verifica_login.php');
 </head>
 
 <body class="u-body">
-  <header class="u-clearfix u-header u-header" id="sec-1696">
+  <header class="u-clearfix u-header u-image u-header" id="sec-1696" data-image-width="900" data-image-height="600">
     <div class="u-clearfix u-sheet u-sheet-1">
-      <a href="Home.html" data-page-id="224677288" class="u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
+      <div class="u-list u-list-1">
+        <div class="u-repeater u-repeater-1">
+          <div class="u-align-left u-border-1 u-border-grey-25 u-container-style u-custom-color-1 u-custom-item u-list-item u-radius-9 u-repeater-item u-shape-round u-list-item-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+            <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-right u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 53 53" style="">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-abdc"></use>
+                </svg><svg class="u-svg-content" viewBox="0 0 53 53" x="0px" y="0px" id="svg-abdc" style="enable-background:new 0 0 53 53;">
+                  <path style="fill:#E7ECED;" d="M18.613,41.552l-7.907,4.313c-0.464,0.253-0.881,0.564-1.269,0.903C14.047,50.655,19.998,53,26.5,53
+	c6.454,0,12.367-2.31,16.964-6.144c-0.424-0.358-0.884-0.68-1.394-0.934l-8.467-4.233c-1.094-0.547-1.785-1.665-1.785-2.888v-3.322
+	c0.238-0.271,0.51-0.619,0.801-1.03c1.154-1.63,2.027-3.423,2.632-5.304c1.086-0.335,1.886-1.338,1.886-2.53v-3.546
+	c0-0.78-0.347-1.477-0.886-1.965v-5.126c0,0,1.053-7.977-9.75-7.977s-9.75,7.977-9.75,7.977v5.126
+	c-0.54,0.488-0.886,1.185-0.886,1.965v3.546c0,0.934,0.491,1.756,1.226,2.231c0.886,3.857,3.206,6.633,3.206,6.633v3.24
+	C20.296,39.899,19.65,40.986,18.613,41.552z"></path>
+                  <g>
+                    <path style="fill:#556080;" d="M26.953,0.004C12.32-0.246,0.254,11.414,0.004,26.047C-0.138,34.344,3.56,41.801,9.448,46.76
+		c0.385-0.336,0.798-0.644,1.257-0.894l7.907-4.313c1.037-0.566,1.683-1.653,1.683-2.835v-3.24c0,0-2.321-2.776-3.206-6.633
+		c-0.734-0.475-1.226-1.296-1.226-2.231v-3.546c0-0.78,0.347-1.477,0.886-1.965v-5.126c0,0-1.053-7.977,9.75-7.977
+		s9.75,7.977,9.75,7.977v5.126c0.54,0.488,0.886,1.185,0.886,1.965v3.546c0,1.192-0.8,2.195-1.886,2.53
+		c-0.605,1.881-1.478,3.674-2.632,5.304c-0.291,0.411-0.563,0.759-0.801,1.03V38.8c0,1.223,0.691,2.342,1.785,2.888l8.467,4.233
+		c0.508,0.254,0.967,0.575,1.39,0.932c5.71-4.762,9.399-11.882,9.536-19.9C53.246,12.32,41.587,0.254,26.953,0.004z"></path>
+                  </g>
+                </svg></span>
+              <p class="u-align-left u-text u-text-default u-text-1">Bem Vindo</p>
+              <h5 class="u-align-left u-text u-text-default u-text-2"><?php echo $_SESSION['usuario']; ?></h5>
+              <div class="u-table u-table-responsive u-table-1">
+                <table class="u-table-entity">
+                  <colgroup>
+                    <col width="26.83%">
+                    <col width="73.17%">
+                  </colgroup>
+                  <tbody class="u-table-body u-table-body-1">
+                    <tr style="height: 26px;">
+                      <td class="u-first-column u-table-cell u-table-cell-1">Nome:</td>
+                      <td class="u-table-cell">Usuário da Silva</td>
+                    </tr>
+                    <tr style="height: 26px;">
+                      <td class="u-first-column u-table-cell u-table-cell-3">Email:</td>
+                      <td class="u-table-cell">user@usuario.com</td>
+                    </tr>
+                    <tr style="height: 26px;">
+                      <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-first-column u-table-cell u-table-cell-5">Editar Dados</td>
+                      <td class="u-align-right u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-6"><a href="logout.php">SAIR</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="Home.html" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
         <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
       </a>
       <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -58,9 +108,9 @@ include('verifica_login.php');
         </div>
         <div class="u-custom-menu u-nav-container">
           <ul class="u-nav u-spacing-10 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Home.html" style="padding: 10px 20px;">Home</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="index.html" style="padding: 10px 20px;">Home</a>
             </li>
-            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
             </li>
             <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.html" style="padding: 10px 20px;">Cadastre-se</a>
             </li>
@@ -73,9 +123,9 @@ include('verifica_login.php');
             <div class="u-inner-container-layout u-sidenav-overflow">
               <div class="u-menu-close"></div>
               <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html" style="padding: 10px 20px;">Home</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html" style="padding: 10px 20px;">Home</a>
                 </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
                 </li>
                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.html" style="padding: 10px 20px;">Cadastre-se</a>
                 </li>
@@ -89,89 +139,182 @@ include('verifica_login.php');
       </nav>
     </div>
   </header>
-  <section style="text-align: center">
-    <h2 &emsp style="font-size: 30px;">Olá, <?php echo $_SESSION['usuario']; ?><a style="display:inline-block; margin-left: 60px" href="logout.php">Encerrar Sessão</a></h2>
-    
-
+  <section class="u-clearfix u-grey-80 u-section-1" id="sec-13e6">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <div class="u-expanded-width u-list u-list-1">
+        <div class="u-repeater u-repeater-1">
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
+              <h1 class="u-custom-item u-text u-text-custom-color-3 u-text-default u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="5000">72</h1>
+              <p class="u-text u-text-2">Usuários Vigilantes</p>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
+              <h1 class="u-custom-item u-text u-text-custom-color-2 u-text-default u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">100</h1>
+              <p class="u-text u-text-4">Alertas Gerados</p>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
+              <h1 class="u-custom-item u-text u-text-default u-text-palette-3-base u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">87</h1>
+              <p class="u-text u-text-6">Câmeras Compartilhadas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <section class="u-clearfix u-section-1" id="sec-0af0">
-    <div class="u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-1">
-      <div class="u-layout">
-        <div class="u-layout-row">
-          <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-14 u-layout-cell-1">
-            <div class="u-container-layout u-container-layout-1">
-              <h2 class="u-text u-text-1">Rede de Vigilancia Comunitári<span style="font-weight: 700;"></span>a
-              </h2>
-              <div class="u-align-right u-border-1 u-border-grey-10 u-container-style u-custom-color-1 u-group u-radius-20 u-shape-round u-group-1">
-                <div class="u-container-layout u-container-layout-2">
-                  <div class="u-align-left u-expanded-width u-list u-list-1">
-                    <div class="u-repeater u-repeater-1">
-                      <div class="u-container-style u-custom-item u-list-item u-repeater-item">
-                        <div class="u-container-layout u-similar-container u-container-layout-3">
-                          <div class="u-align-center u-clearfix u-custom-html u-custom-html-1">'<iframe width="100%" height="100%" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen=""></iframe>'
-                          </div>
-                          <p class="u-small-text u-text u-text-default u-text-variant u-text-2">Rua André Nadolny, 762</p>
-                          <p class="u-small-text u-text u-text-default u-text-palette-1-base u-text-variant u-text-3">Colombo-PR</p>
-                        </div>
+  <section class="u-clearfix u-image u-section-2" id="sec-0af0" data-image-width="900" data-image-height="600">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-align-center u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-style u-hover-feature u-layout-cell u-left-cell u-size-14 u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1">
+                <h2 class="u-align-center u-text u-text-1">Rede de Vigilancia Comunitári<span style="font-weight: 700;"></span>a
+                </h2>
+                <div class="u-list u-list-1">
+                  <div class="u-repeater u-repeater-1">
+                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-custom-color-1 u-list-item u-radius-5 u-repeater-item u-shape-round u-list-item-1">
+                      <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-align-left u-icon u-icon-circle u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-db22"></use>
+                          </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-db22" style="enable-background:new 0 0 512 512;">
+                            <g>
+                              <g>
+                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z"></path>
+                              </g>
+                            </g>
+                          </svg></span>
+                        <p class="u-align-right u-text u-text-grey-70 u-text-2">Rua André Nadolny, 762</p>
+                        <p class="u-align-right u-text u-text-custom-color-2 u-text-3">Roça Grande</p>
+                        <p class="u-align-right u-text u-text-custom-color-2 u-text-4">Colombo-PR</p>
                       </div>
-                      <div class="u-container-style u-custom-item u-list-item u-repeater-item">
-                        <div class="u-container-layout u-similar-container u-container-layout-4">
-                          <div class="u-align-center u-clearfix u-custom-html u-custom-html-2">'<iframe width="100%" height="100%" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen=""></iframe>'
-                          </div>
-                          <p class="u-small-text u-text u-text-default u-text-variant u-text-4">Rua Alferes M. Machado, 721</p>
-                          <p class="u-small-text u-text u-text-default u-text-palette-1-base u-text-variant u-text-5">Curitiba-PR</p>
-                        </div>
+                    </div>
+                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-custom-color-1 u-list-item u-radius-5 u-repeater-item u-shape-round u-list-item-2">
+                      <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-align-left u-icon u-icon-circle u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1f77"></use>
+                          </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-1f77" style="enable-background:new 0 0 512 512;">
+                            <g>
+                              <g>
+                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z"></path>
+                              </g>
+                            </g>
+                          </svg></span>
+                        <p class="u-align-right u-text u-text-grey-70 u-text-5">Rua Alferes Poli, 2345</p>
+                        <p class="u-align-right u-text u-text-custom-color-2 u-text-6">Centro</p>
+                        <p class="u-align-right u-text u-text-custom-color-2 u-text-7">Curitiba-PR</p>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-custom-color-1 u-list-item u-radius-5 u-repeater-item u-shape-round u-list-item-3">
+                      <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-align-left u-icon u-icon-circle u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-39e9"></use>
+                          </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-39e9" style="enable-background:new 0 0 512 512;">
+                            <g>
+                              <g>
+                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z"></path>
+                              </g>
+                            </g>
+                            <g>
+                              <g>
+                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z"></path>
+                              </g>
+                            </g>
+                          </svg></span>
+                        <p class="u-align-right u-text u-text-grey-70 u-text-8">Rua João Ramalho, 386</p>
+                        <p class="u-align-right u-text u-text-custom-color-2 u-text-9">Bairro Alto</p>
+                        <p class="u-align-right u-text u-text-custom-color-2 u-text-10">Curitiba-PR</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-46 u-layout-cell-2">
-            <div class="u-container-layout u-container-layout-5">
-              <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-group u-radius-20 u-shape-round u-group-2">
-                <div class="u-container-layout u-container-layout-6">
-                  <div class="u-clearfix u-custom-html u-custom-html-3">
-                    <meta charset="UTF-8">
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title></title>
-                    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
-                    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-                    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
-                    <div id="map"></div>
-                    <div id="popup" class="ol-popup">
-                      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-                      <div id="popup-content"></div>
+            <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-46 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-5">
+                <div class="u-border-1 u-border-grey-15 u-container-style u-expanded-width u-group u-radius-20 u-shape-round u-white u-group-1">
+                  <div class="u-container-layout u-container-layout-6">
+                    <div class="u-clearfix u-custom-html u-custom-html-1">
+                      <meta charset="UTF-8">
+                      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <title></title>
+                      <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+                      <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+                      <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
+                      <div id="map"></div>
+                      <div id="popup" class="ol-popup">
+                        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                        <div id="popup-content"></div>
+                      </div>
+                      <script>
+                        // Where you want to render the map.
+                        var element = document.getElementById('map');
+                        // Height has to be set. You can do this in CSS too.
+                        element.style = 'height:800px;';
+                        // Create Leaflet map on map element.
+                        var map = L.map(element);
+                        // Add OSM tile layer to the Leaflet map.
+                        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                        }).addTo(map);
+                        // Target's GPS coordinates.
+                        var target = L.latLng('-25.351856', '-49.206605');
+                        var cond_01 = L.latLng('-25.353510', '-49.207215');
+                        // Set map's center to target with zoom 14.
+                        map.setView(target, 17);
+                        // Place a marker on the same location.
+                        L.marker(target).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
+                        L.marker(cond_01).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
+                        //POP-UP
+                        // create the popup
+                        const popup = new mapboxgl.Popup({
+                          offset: 25
+                        }).setText(
+                          'Construction on the Washington Monument began in 1848.'
+                        );
+                      </script>
                     </div>
-                    <script>
-                      // Where you want to render the map.
-                      var element = document.getElementById('map');
-                      // Height has to be set. You can do this in CSS too.
-                      element.style = 'height:800px;';
-                      // Create Leaflet map on map element.
-                      var map = L.map(element);
-                      // Add OSM tile layer to the Leaflet map.
-                      L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-                        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                      }).addTo(map);
-                      // Target's GPS coordinates.
-                      var target = L.latLng('-25.351856', '-49.206605');
-                      var cond_01 = L.latLng('-25.353510', '-49.207215');
-                      // Set map's center to target with zoom 14.
-                      map.setView(target, 17);
-                      // Place a marker on the same location.
-                      L.marker(target).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
-                      L.marker(cond_01).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
-                      //POP-UP
-                      // create the popup
-                      const popup = new mapboxgl.Popup({
-                        offset: 25
-                      }).setText(
-                        'Construction on the Washington Monument began in 1848.'
-                      );
-                    </script>
                   </div>
                 </div>
               </div>
@@ -180,6 +323,7 @@ include('verifica_login.php');
         </div>
       </div>
     </div>
+
   </section>
 
 
@@ -234,17 +378,6 @@ include('verifica_login.php');
       </p>
     </div>
   </footer>
-  <section class="u-backlink u-clearfix u-grey-80">
-    <a class="u-link" href="html-templates" target="_blank">
-      <span>HTML Template</span>
-    </a>
-    <p class="u-text">
-      <span>created with</span>
-    </p>
-    <a class="u-link" href="" target="_blank">
-      <span>Website Builder Software</span>
-    </a>.
-  </section>
 </body>
 
 </html>

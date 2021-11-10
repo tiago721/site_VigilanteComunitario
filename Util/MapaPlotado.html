@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameras</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css"
+        type="text/css">
+
+
+</head>
+
+<body style="text-align:center">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet" />
+    <div id="map"></div>
+    <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+    </div>
+
+
+    <script>
+        // Where you want to render the map.
+        var element = document.getElementById('map');
+
+        // Height has to be set. You can do this in CSS too.
+        element.style = 'height:800px;';
+
+        // Create Leaflet map on map element.
+        var map = L.map(element);
+
+        // Add OSM tile layer to the Leaflet map.
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Target's GPS coordinates.
+        var target = L.latLng('-25.351856', '-49.206605');
+        var cond_01 = L.latLng('-25.353510', '-49.207215');
+
+        // Set map's center to target with zoom 14.
+        map.setView(target, 17);
+
+        // Place a marker on the same location.
+        L.marker(target).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
+        L.marker(cond_01).addTo(map).bindPopup('<iframe width="300" height="300" src="https://rtsp.me/embed/83kfRRiR/" frameborder="0" allowfullscreen></iframe>');;
+
+        //POP-UP
+        // create the popup
+        const popup = new mapboxgl.Popup({ offset: 25 }).setText(
+            'Construction on the Washington Monument began in 1848.'
+        );
+
+
+    </script>
+
+</body>
+
+</html>

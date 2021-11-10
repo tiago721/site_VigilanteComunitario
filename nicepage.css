@@ -35328,6 +35328,14 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
+        .u-body
+        {
+        background-image: url("undefined");
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
         /** common-rules **/
 
         /** publish-rules **/
@@ -35488,17 +35496,89 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: none;
+  background-image: url("images/Untitled-21.jpg");
+  background-position: 50% 30%;
 }
 
 .u-header .u-sheet-1 {
-  min-height: 114px;
+  min-height: 149px;
+}
+
+.u-header .u-list-1 {
+  width: 525px;
+  margin: 13px auto 0 112px;
+}
+
+.u-header .u-repeater-1 {
+  min-height: 123px;
+  grid-template-columns: 100%;
+  grid-gap: 0px 0px;
+}
+
+.u-header .u-list-item-1 {
+  box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.4);
+  text-shadow: 3px 3px 7px rgba(0,0,0,0);
+  background-image: none;
+}
+
+.u-header .u-container-layout-1 {
+  padding: 0 10px;
+}
+
+.u-header .u-icon-1 {
+  width: 75px;
+  height: 75px;
+  margin: 24px 0 0 auto;
+}
+
+.u-header .u-text-1 {
+  font-size: 0.75rem;
+  margin: -99px auto 0 0;
+}
+
+.u-header .u-text-2 {
+  font-weight: 700;
+  margin: -5px auto 0 0;
+}
+
+.u-header .u-table-1 {
+  width: 393px;
+  margin: 0 auto 0 20px;
+}
+
+.u-block-0cae-44 {
+  font-weight: 700;
+}
+
+.u-block-0cae-50 {
+  height: 46px;
+}
+
+.u-header .u-table-body-1 {
+  font-size: 0.75rem;
+  line-height: 0.2;
+}
+
+.u-header .u-table-cell-1 {
+  font-weight: 700;
+}
+
+.u-header .u-table-cell-3 {
+  font-weight: 700;
+}
+
+.u-header .u-table-cell-5 {
+  font-weight: 700;
+}
+
+.u-block-0cae-61 {
+  height: 46px;
 }
 
 .u-header .u-image-1 {
   width: 67px;
   height: 85px;
-  margin: 15px auto 0 0;
+  margin: -104px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -35507,7 +35587,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -51px 0 30px auto;
+  margin: -34px 0 30px auto;
 }
 
 .u-header .u-nav-1 {
@@ -35523,13 +35603,35 @@ a.u-link.u-text-hover-grey-90:hover {
   letter-spacing: 0px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-text-2 {
+    width: 70px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -104px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: -51px;
+    margin-top: -34px;
   }
 }
 
+@media (max-width: 767px) {
+  .u-header .u-list-1 {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-list-1 {
+    width: 340px;
+    margin-left: 0;
+  }
 
-
+  .u-header .u-table-1 {
+    width: 320px;
+    margin-left: 0;
+  }
+}
 .u-footer .u-sheet-1 {
   min-height: 172px;
 }

@@ -19,6 +19,7 @@ $query = "INSERT INTO `bd_vigilante`.`usuario` (`usuario`, `senha`, `email`, `no
 
 
 
+
 $query2 = "select usuario from usuario where usuario = '{$usuario}' and senha = md5('{$senha}')";
 $result2 = mysqli_query($conexao, $query2);
 $row = mysqli_num_rows($result2);
