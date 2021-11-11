@@ -7,18 +7,17 @@ session_start();
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <meta name="keywords" content="Entrar">
+  <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="page_type" content="np-template-header-footer-from-plugin">
-  <title>Login</title>
+  <title>Cadastre-se</title>
   <link rel="stylesheet" href="nicepage.css" media="screen">
-  <link rel="stylesheet" href="Login.css" media="screen">
+  <link rel="stylesheet" href="Cadastre-se.css" media="screen">
   <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
   <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
   <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
   <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-  <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
-
+  <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 
 
   <script type="application/ld+json">
@@ -31,7 +30,7 @@ session_start();
     }
   </script>
   <meta name="theme-color" content="#478ac9">
-  <meta property="og:title" content="Login">
+  <meta property="og:title" content="Cadastre-se">
   <meta property="og:type" content="website">
 </head>
 
@@ -44,8 +43,8 @@ session_start();
           ob_start();
           include("quadro.html");
           $html = ob_get_clean();
-          $variavel = "";   
-          if($_SESSION){
+          $variavel = "";
+          if ($_SESSION) {
             echo $html;
           }
           ?>
@@ -104,69 +103,107 @@ session_start();
       </nav>
     </div>
   </header>
-  <section class="u-align-center u-clearfix u-image u-section-1" id="carousel_1736" data-image-width="1980" data-image-height="1108">
-    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <div class="u-align-center u-container-style u-group u-white u-group-1">
-        <div class="u-container-layout u-container-layout-1">
-          <h2 class="u-custom-font u-font-pt-sans u-text u-text-default u-text-palette-4-dark-1 u-text-1">Entrar</h2>
-          <h5 class="u-custom-font u-font-lato u-text u-text-default u-text-2">
-            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-5 u-text-palette-1-light-1 u-btn-1" href="Cadastre-se.php" data-page-id="2728104555">Ainda não é cadastrado? Acesse Aqui!</a>
-          </h5>
-          <div class="u-form u-form-1">
-            <form action="login.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-16 u-form-vertical u-inner-form" style="padding: 9px;" source="custom" name="form" redirect="true">
-              <div class="u-form-email u-form-group">
-                <label for="email-780d" class="u-form-control-hidden u-label u-label-1">Email</label>
-                <input type="text" placeholder="Usuário" id="email-780d" name="usuario" class="u-grey-10 u-input u-input-rectangle u-input-1" required="">
-              </div>
-              <div class="u-form-group u-form-group-2">
-                <label for="text-8b24" class="u-form-control-hidden u-label u-label-2"></label>
-                <input type="password" placeholder="Senha" id="text-8b24" name="senha" class="u-grey-10 u-input u-input-rectangle u-input-2">
-              </div>
-              <div class="u-align-center u-form-group u-form-submit">
-                <a href="#" class="u-active-black u-border-none u-btn u-btn-submit u-button-style u-custom-font u-heading-font u-hover-black u-palette-4-dark-1 u-text-body-alt-color u-text-hover-white u-btn-2">login</a>
-                <input type="submit" value="submit" class="u-form-control-hidden">
-              </div>
-              <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-              <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-              <input type="hidden" value="" name="recaptchaResponse">
-            </form>
-          </div>
-          <p class="u-text u-text-3">
-            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" href="Login.html#sec-ebba" data-page-id="541209197">Esqueci a senha</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="u-clearfix u-section-2" id="sec-ebba">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-size-34 u-layout-cell-1">
-              <div class="u-container-layout u-container-layout-1">
-                <img class="u-absolute-hcenter u-expanded u-image u-image-1" src="images/9f5771b2234af035368052c1ed1ea3ca5feecb8749d55560557d311a55600b95bf2295f2b1cb8d0ccd8bab75a326f1f139ec43fc9f9d9484d74f15_1280.jpg" data-image-width="1280" data-image-height="826">
+  <section class="u-clearfix u-custom-color-2 u-valign-middle-xs u-section-1" id="carousel_780a">
+    <div class="u-custom-color-5 u-expanded-width u-shape u-shape-rectangle u-shape-1"></div>
+    <img class="u-image u-image-default u-image-1" src="images/Untitled-2.png" alt="" data-image-width="688" data-image-height="432">
+    <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-row">
+          <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+            <div class="u-container-layout u-valign-bottom-xs u-container-layout-1">
+              <h3 class="u-text u-text-default u-text-1"> Junte-se a NÓS E TORNE-SE TAMBÉM UM VIGILANTE</h3>
+              <h6 class="u-custom-font u-text u-text-font u-text-2"> Acesse gratuitamente todos os nossos conteúdos, se
+                inscreva e acompanhe todas nossas atualizações.</h6>
+              <div class="u-hidden-md u-social-icons u-spacing-20 u-social-icons-1">
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f107"></use>
+                    </svg>
+                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f107" class="u-svg-content">
+                      <path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
+                      </path>
+                    </svg>
+                  </span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e140"></use>
+                    </svg>
+                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-e140" class="u-svg-content">
+                      <path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z">
+                      </path>
+                    </svg>
+                  </span>
+                </a>
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4718"></use>
+                    </svg>
+                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4718" class="u-svg-content">
+                      <path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z">
+                      </path>
+                      <path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z">
+                      </path>
+                      <path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z">
+                      </path>
+                    </svg>
+                  </span>
+                </a>
+                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-4">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-438b"></use>
+                    </svg>
+                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-438b" class="u-svg-content">
+                      <path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z">
+                      </path>
+                    </svg>
+                  </span>
+                </a>
               </div>
             </div>
-            <div class="u-container-style u-layout-cell u-size-26 u-layout-cell-2">
-              <div class="u-container-layout u-container-layout-2">
-                <h4 class="u-custom-font u-font-lato u-text u-text-1">Esqueceu sua senha?</h4>
-                <p class="u-text u-text-2"> Insira seu endereço de e-mail abaixo para criar uma nova senha.</p>
-                <div class="u-form u-form-1">
-                  <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form-1" style="padding: 10px;">
-                    <div class="u-form-email u-form-group">
-                      <label for="email-3117" class="u-form-control-hidden u-label"></label>
-                      <input type="email" placeholder="Insira um endereço de e-mail válido" id="email-3117" name="email" class="u-border-1 u-border-grey-15 u-grey-5 u-input u-input-rectangle u-radius-5 u-input-1" required="">
-                    </div>
-                    <div class="u-align-left u-form-group u-form-submit">
-                      <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-5 u-radius-5 u-btn-1">Enviar</a>
-                      <input type="submit" value="submit" class="u-form-control-hidden">
-                    </div>
-                    <div class="u-form-send-message u-form-send-success"> Obrigado! A sua mensagem foi enviada. </div>
-                    <div class="u-form-send-error u-form-send-message"> Não foi possível enviar a sua mensagem. Por favor, corrija os erros e tente novamente. </div>
-                    <input type="hidden" value="" name="recaptchaResponse">
-                  </form>
-                </div>
+          </div>
+          <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+            <div class="u-container-layout u-valign-top u-container-layout-2">
+              <div class="u-form u-form-1">
+                <form action="cadastro.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form" redirect="true">
+                  <div class="u-form-group u-form-group-1">
+                    <label for="text-3f05" class="u-form-control-hidden u-label u-text-body-alt-color u-label-1"></label>
+                    <input type="text" placeholder="Nome" id="text-3f05" name="nome" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="required">
+                  </div>
+                  <div class="u-form-group u-form-group-2">
+                    <label for="text-0bcc" class="u-form-control-hidden u-label u-text-body-alt-color u-label-2"></label>
+                    <input type="text" placeholder="Sobrenome" id="text-0bcc" name="sobrenome" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="required">
+                  </div>
+                  <div class="u-form-group u-form-group-3">
+                    <label for="text-771a" class="u-form-control-hidden u-label u-text-body-alt-color u-label-3"></label>
+                    <input type="text" placeholder="User Name" id="text-771a" name="usuario" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="required">
+                  </div>
+                  <div class="u-form-email u-form-group u-form-group-4">
+                    <label for="email-319a" class="u-form-control-hidden u-label u-text-body-alt-color u-label-4"></label>
+                    <input type="email" placeholder="Enter a valid email address" id="email-319a" name="email" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="">
+                  </div>
+                  <div class="u-form-group u-form-group-5">
+                    <label for="text-72e9" class="u-form-control-hidden u-label u-text-body-alt-color u-label-5"></label>
+                    <input type="password" placeholder="Senha" id="text-72e9" name="senha" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="required">
+                  </div>
+                  <div class="u-form-group u-form-group-6">
+                    <label for="text-6eab" class="u-form-control-hidden u-label u-text-body-alt-color u-label-6"></label>
+                    <input type="password" placeholder="Repita sua senha" id="text-6eab" name="senha2" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle" required="required">
+                  </div>
+                  <div class="u-form-checkbox u-form-group u-form-group-3">
+                    <input type="checkbox" id="checkbox-404b" name="checkbox" value="On" required="required">
+                    <label for="checkbox-404b" class="u-label u-label-3"> Eu concordo com os&nbsp;Termos e
+                      Condições&nbsp;do Vigilante Comunitário.com.br&nbsp;</label>
+                  </div>
+                  <div class="u-align-left u-form-group u-form-submit u-form-group-7">
+                    <a href="#" class="u-btn u-btn-submit u-button-style u-custom-font u-font-montserrat u-white u-btn-1">Cadastre-me</a>
+                    <input type="submit" value="submit" class="u-form-control-hidden">
+                  </div>
+                  <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                  <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors
+                    then try again. </div>
+                  <input type="hidden" value="" name="recaptchaResponse">
+                </form>
               </div>
             </div>
           </div>
@@ -203,7 +240,8 @@ session_start();
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-1a9b">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
               <path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
-            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path>
+            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z">
+              </path>
               <path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path>
               <path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
@@ -223,7 +261,11 @@ session_start();
       <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
         <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
       </a>
-      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
+      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1">
+        O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para
+        criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre
+        alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas
+        Mendes.
       </p>
     </div>
   </footer>
