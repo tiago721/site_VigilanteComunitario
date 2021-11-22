@@ -247,3 +247,16 @@
     min-height: 175px;
   }
 }
+
+
+ 
+.fadeImg2 {
+opacity:0;
+-webkit-animation: fadeIn 600ms linear;
+-moz-animation: fadeIn 600ms linear;
+-o-animation: fadeIn 600ms linear;
+animation: fadeIn 600ms linear; 
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-o-animation-fill-mode:forwards;
+animation-fill-mode:forwards;}

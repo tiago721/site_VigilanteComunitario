@@ -41,7 +41,7 @@ session_start();
         <div class="u-repeater u-repeater-1">
           <?php
           ob_start();
-          include("quadro.html");
+          include("quadro.php");
           $html = ob_get_clean();
           $variavel = "";
           if ($_SESSION) {

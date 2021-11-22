@@ -429,3 +429,14 @@
 .u-section-2 .u-layout-cell-1 {
   transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
 }
+
+.fadeImg2 {
+opacity:0;
+-webkit-animation: fadeIn 600ms linear;
+-moz-animation: fadeIn 600ms linear;
+-o-animation: fadeIn 600ms linear;
+animation: fadeIn 600ms linear; 
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-o-animation-fill-mode:forwards;
+animation-fill-mode:forwards;}

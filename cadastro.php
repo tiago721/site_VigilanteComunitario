@@ -3,7 +3,7 @@ session_start();
 include('conexao.php');
 
 if(empty($_POST['nome']) || empty($_POST['senha'])) {
-	header('Location: Cadastre-se.html');
+	header('Location: Cadastre-se.php');
 	exit();
 }
 
@@ -14,7 +14,7 @@ $email = mysqli_real_escape_string($conexao, $_POST['email']);      //PROTECT SQ
 $senha = mysqli_real_escape_string($conexao, $_POST['senha']);      //PROTECT SQL INJECTION
 $senha2 = mysqli_real_escape_string($conexao, $_POST['senha2']);      //PROTECT SQL INJECTION
 
-$query = "INSERT INTO `bd_vigilante`.`usuario` (`usuario`, `senha`, `email`, `nome`, `sobrenome`) VALUES ('{$usuario}', md5('{$senha}'), '{$email}', '{$nome}', '{$sobrenome}')";
+$query = "INSERT INTO `id17751932_bd_cofre`.`usuario` (`usuario`, `senha`, `email`, `nome`, `sobrenome`) VALUES ('{$usuario}', md5('{$senha}'), '{$email}', '{$nome}', '{$sobrenome}')";
 
 
 
@@ -29,7 +29,7 @@ $row = mysqli_num_rows($result2);
 
 if($senha == $senha2){
 	if($row >= 1) {
-		header('Location: Home.html');
+		header('Location: Home.php');
 		exit();
 	} else {	
 		$result = mysqli_query($conexao, $query);

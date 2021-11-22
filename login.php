@@ -18,7 +18,26 @@ $row = mysqli_num_rows($result);
 
 if($row == 1) {
 	$_SESSION['usuario'] = $usuario;
-	header('Location: visualizador.php');
+	
+	$select = "select nome from usuario where usuario = '{$usuario}'";
+	$resultado = mysqli_query($conexao, $select);
+	$row2 = mysqli_fetch_row($resultado);
+	$nome = $row2[0];
+	$_SESSION['nome'] = $nome;
+
+	$select = "select sobrenome from usuario where usuario = '{$usuario}'";
+	$resultado = mysqli_query($conexao, $select);
+	$row2 = mysqli_fetch_row($resultado);
+	$sobrenome = $row2[0];
+	$_SESSION['sobrenome'] = $sobrenome;
+	
+	$select = "select email from usuario where usuario = '{$usuario}'";
+	$resultado = mysqli_query($conexao, $select);
+	$row2 = mysqli_fetch_row($resultado);
+	$email = $row2[0];
+	$_SESSION['email'] = $email;
+	
+	header('Location: Visualizador.php');
 	exit();
 } else {
 	$_SESSION['nao_autenticado'] = true;
