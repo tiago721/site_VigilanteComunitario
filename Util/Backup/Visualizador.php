@@ -25,7 +25,7 @@ include('verifica_login.php');
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "",
-      "logo": "images/WhatsAppImage2021-11-22at11.26.29.jpeg",
+      "logo": "images/logo2.png",
       "sameAs": []
     }
   </script>
@@ -50,11 +50,11 @@ include('verifica_login.php');
           ?>
         </div>
       </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
+        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
       </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700; text-transform: uppercase;">
+      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
           <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
             <svg>
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
@@ -71,14 +71,14 @@ include('verifica_login.php');
           </a>
         </div>
         <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-30 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 0px;">Home</a>
+          <ul class="u-nav u-spacing-10 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 20px;">Home</a>
             </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 0px;">Visualizador</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
             </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 0px;">Cadastre-se</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
             </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 0px;">Login</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
             </li>
           </ul>
         </div>
@@ -103,45 +103,44 @@ include('verifica_login.php');
       </nav>
     </div>
   </header>
-  <section class="u-clearfix u-gradient u-section-1" id="sec-13e6">
+  <section class="u-clearfix u-grey-80 u-section-1" id="sec-13e6">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
       <div class="u-expanded-width u-list u-list-1">
         <div class="u-repeater u-repeater-1">
           <div class="u-align-center u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
               <h1 class="u-custom-item u-text u-text-custom-color-3 u-text-default u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="5000">72</h1>
-              <p class="u-text u-text-body-alt-color u-text-2">Usuários Vigilantes</p>
+              <p class="u-text u-text-2">Usuários Vigilantes</p>
             </div>
           </div>
           <div class="u-align-center u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
               <h1 class="u-custom-item u-text u-text-custom-color-2 u-text-default u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">100</h1>
-              <p class="u-text u-text-body-alt-color u-text-4">Alertas Gerados</p>
+              <p class="u-text u-text-4">Alertas Gerados</p>
             </div>
           </div>
           <div class="u-align-center u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
               <h1 class="u-custom-item u-text u-text-default u-text-palette-3-base u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">87</h1>
-              <p class="u-text u-text-body-alt-color u-text-6">Câmeras Compartilhadas</p>
+              <p class="u-text u-text-6">Câmeras Compartilhadas</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="u-clearfix u-white u-section-2" id="sec-0af0">
-
+  <section class="u-clearfix u-image u-section-2" id="sec-0af0" data-image-width="900" data-image-height="600">
     <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-align-center u-clearfix u-gutter-8 u-layout-wrap u-layout-wrap-1">
-        <div class="u-gutter-0 u-layout">
+      <div class="u-align-center u-clearfix u-gutter-20 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
           <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-size-12 u-layout-cell-1">
+            <div class="u-container-style u-hover-feature u-layout-cell u-left-cell u-size-14 u-layout-cell-1">
               <div class="u-container-layout u-container-layout-1">
                 <h2 class="u-align-center u-text u-text-1">Rede de Vigilancia Comunitári<span style="font-weight: 700;"></span>a
                 </h2>
                 <div class="u-list u-list-1">
                   <div class="u-repeater u-repeater-1">
-                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-list-item u-radius-5 u-repeater-item u-shape-round u-white u-list-item-1">
+                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-custom-color-1 u-list-item u-radius-5 u-repeater-item u-shape-round u-list-item-1">
                       <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-align-left u-icon u-icon-circle u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-db22"></use>
                           </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-db22" style="enable-background:new 0 0 512 512;">
@@ -171,7 +170,7 @@ include('verifica_login.php');
                         <p class="u-align-right u-text u-text-custom-color-2 u-text-4">Colombo-PR</p>
                       </div>
                     </div>
-                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-list-item u-radius-5 u-repeater-item u-shape-round u-white u-list-item-2">
+                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-custom-color-1 u-list-item u-radius-5 u-repeater-item u-shape-round u-list-item-2">
                       <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-align-left u-icon u-icon-circle u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1f77"></use>
                           </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-1f77" style="enable-background:new 0 0 512 512;">
@@ -201,7 +200,7 @@ include('verifica_login.php');
                         <p class="u-align-right u-text u-text-custom-color-2 u-text-7">Curitiba-PR</p>
                       </div>
                     </div>
-                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-list-item u-radius-5 u-repeater-item u-shape-round u-white u-list-item-3">
+                    <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-custom-color-1 u-list-item u-radius-5 u-repeater-item u-shape-round u-list-item-3">
                       <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-align-left u-icon u-icon-circle u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-39e9"></use>
                           </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-39e9" style="enable-background:new 0 0 512 512;">
@@ -235,9 +234,9 @@ include('verifica_login.php');
                 </div>
               </div>
             </div>
-            <div class="u-align-left u-container-style u-layout-cell u-size-33 u-layout-cell-2">
+            <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-46 u-layout-cell-2">
               <div class="u-container-layout u-container-layout-5">
-                <div class="u-border-1 u-border-grey-15 u-container-style u-group u-radius-20 u-shape-round u-white u-group-1">
+                <div class="u-border-1 u-border-grey-15 u-container-style u-expanded-width u-group u-radius-20 u-shape-round u-white u-group-1">
                   <div class="u-container-layout u-container-layout-6">
                     <div class="u-clearfix u-custom-html u-custom-html-1">
                       <meta charset="UTF-8">
@@ -284,74 +283,16 @@ include('verifica_login.php');
                 </div>
               </div>
             </div>
-            <div class="u-container-style u-layout-cell u-size-15 u-layout-cell-3">
-              <div class="u-container-layout u-container-layout-7">
-                <div class="u-container-style u-grey-10 u-group u-radius-27 u-shape-round u-group-2"style="width: 560px; overflow-y: scroll;">
-                  <div class="u-container-layout u-valign-middle">
-                    <div class="container d-flex justify-content-center mt-100 mb-100" style="height: 680px;">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="card">
-                            <div class="card-body">
-                              <h4 class="card-title">Recent Comments</h4>
-                              <h6 class="card-subtitle">Latest Comments section by users</h6>
-                            </div>
-                            <div class="comment-widgets m-b-20">
-                              <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/uIgDDDd.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text w-100">
-                                  <h5>Samso Nagaro</h5>
-                                  <div class="comment-footer"> <span class="date">April 14, 2019</span> <span class="label label-info">Pending</span> <span class="action-icons"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
-                                </div>
-                              </div>
-                              <div class="d-flex flex-row comment-row ">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/tT8rjKC.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text active w-100">
-                                  <h5>Jonty Andrews</h5>
-                                  <div class="comment-footer"> <span class="date">March 13, 2020</span> <span class="label label-success">Approved</span> <span class="action-icons active"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right text-success"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart text-danger"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites</p>
-                                </div>
-                              </div>
-                              <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/cAdLHeY.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text w-100">
-                                  <h5>Sarah Tim</h5>
-                                  <div class="comment-footer"> <span class="date">Jan 20, 2020</span> <span class="label label-danger">Rejected</span> <span class="action-icons"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
-                                </div>
-                              </div>
-                              <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/uIgDDDd.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text w-100">
-                                  <h5>Samso Nagaro</h5>
-                                  <div class="comment-footer"> <span class="date">March 20, 2020</span> <span class="label label-info">Pending</span> <span class="action-icons"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
+
   </section>
 
 
   <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a">
     <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
-      </a>
-      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
-      </p>
       <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
         <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c52c"></use>
@@ -394,8 +335,13 @@ include('verifica_login.php');
             </svg></span>
         </a>
       </div>
+      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
+        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
+      </a>
+      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
+      </p>
     </div>
   </footer>
 </body>
 
-</html>
+</php>

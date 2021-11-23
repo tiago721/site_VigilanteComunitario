@@ -20,12 +20,13 @@ session_start();
   <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
 
 
+
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "",
-      "logo": "images/WhatsAppImage2021-11-22at11.26.29.jpeg",
+      "logo": "images/logo2.png",
       "sameAs": []
     }
   </script>
@@ -43,18 +44,18 @@ session_start();
           ob_start();
           include("quadro.php");
           $html = ob_get_clean();
-          $variavel = "";
-          if ($_SESSION) {
+          $variavel = "";   
+          if($_SESSION){
             echo $html;
           }
           ?>
         </div>
       </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
+        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
       </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700; text-transform: uppercase;">
+      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
           <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
             <svg>
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
@@ -71,14 +72,14 @@ session_start();
           </a>
         </div>
         <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-30 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 0px;">Home</a>
+          <ul class="u-nav u-spacing-10 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 20px;">Home</a>
             </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 0px;">Visualizador</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
             </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 0px;">Cadastre-se</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
             </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 0px;">Login</a>
+            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
             </li>
           </ul>
         </div>
@@ -103,16 +104,16 @@ session_start();
       </nav>
     </div>
   </header>
-  <section class="u-align-center u-clearfix u-gradient u-section-1" id="carousel_1736">
+  <section class="u-align-center u-clearfix u-image u-section-1" id="carousel_1736" data-image-width="1980" data-image-height="1108">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <div class="u-align-center u-container-style u-group u-shape-rectangle u-white u-group-1">
-        <div class="u-container-layout u-valign-middle u-container-layout-1">
-          <h2 class="u-custom-font u-font-pt-sans u-text u-text-custom-color-1 u-text-default u-text-1">Entrar</h2>
+      <div class="u-align-center u-container-style u-group u-white u-group-1">
+        <div class="u-container-layout u-container-layout-1">
+          <h2 class="u-custom-font u-font-pt-sans u-text u-text-default u-text-palette-4-dark-1 u-text-1">Entrar</h2>
           <h5 class="u-custom-font u-font-lato u-text u-text-default u-text-2">
-            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-5 u-text-palette-1-dark-1 u-btn-1" href="Cadastre-se.php" data-page-id="2728104555">Ainda não é cadastrado? Acesse Aqui!</a>
+            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-5 u-text-palette-1-light-1 u-btn-1" href="Cadastre-se.php" data-page-id="2728104555">Ainda não é cadastrado? Acesse Aqui!</a>
           </h5>
           <div class="u-form u-form-1">
-          <form action="login.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-16 u-form-vertical u-inner-form" style="padding: 9px;" source="custom" name="form" redirect="true">
+            <form action="login.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-16 u-form-vertical u-inner-form" style="padding: 9px;" source="custom" name="form" redirect="true">
               <div class="u-form-email u-form-group">
                 <label for="email-780d" class="u-form-control-hidden u-label u-label-1">Email</label>
                 <input type="text" placeholder="Usuário" id="email-780d" name="usuario" class="u-grey-10 u-input u-input-rectangle u-input-1" required="">
@@ -131,8 +132,44 @@ session_start();
             </form>
           </div>
           <p class="u-text u-text-3">
-            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" href="" data-page-id="541209197">Esqueci a senha</a>
+            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" href="Login.html#sec-ebba" data-page-id="541209197">Esqueci a senha</a>
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="u-clearfix u-section-2" id="sec-ebba">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-style u-layout-cell u-size-34 u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1">
+                <img class="u-absolute-hcenter u-expanded u-image u-image-1" src="images/9f5771b2234af035368052c1ed1ea3ca5feecb8749d55560557d311a55600b95bf2295f2b1cb8d0ccd8bab75a326f1f139ec43fc9f9d9484d74f15_1280.jpg" data-image-width="1280" data-image-height="826">
+              </div>
+            </div>
+            <div class="u-container-style u-layout-cell u-size-26 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2">
+                <h4 class="u-custom-font u-font-lato u-text u-text-1">Esqueceu sua senha?</h4>
+                <p class="u-text u-text-2"> Insira seu endereço de e-mail abaixo para criar uma nova senha.</p>
+                <div class="u-form u-form-1">
+                  <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form-1" style="padding: 10px;">
+                    <div class="u-form-email u-form-group">
+                      <label for="email-3117" class="u-form-control-hidden u-label"></label>
+                      <input type="email" placeholder="Insira um endereço de e-mail válido" id="email-3117" name="email" class="u-border-1 u-border-grey-15 u-grey-5 u-input u-input-rectangle u-radius-5 u-input-1" required="">
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                      <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-5 u-radius-5 u-btn-1">Enviar</a>
+                      <input type="submit" value="submit" class="u-form-control-hidden">
+                    </div>
+                    <div class="u-form-send-message u-form-send-success"> Obrigado! A sua mensagem foi enviada. </div>
+                    <div class="u-form-send-error u-form-send-message"> Não foi possível enviar a sua mensagem. Por favor, corrija os erros e tente novamente. </div>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -141,11 +178,6 @@ session_start();
 
   <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a">
     <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
-      </a>
-      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
-      </p>
       <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
         <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c52c"></use>
@@ -188,6 +220,11 @@ session_start();
             </svg></span>
         </a>
       </div>
+      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
+        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
+      </a>
+      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
+      </p>
     </div>
   </footer>
 </body>

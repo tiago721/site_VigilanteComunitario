@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 
@@ -18,48 +15,39 @@ session_start();
   <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
   <link id="u-theme-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 
 
 
 
 
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "name": "",
-      "logo": "images/WhatsAppImage2021-11-22at11.26.29.jpeg",
-      "sameAs": []
-    }
-  </script>
+  <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/logo2.png",
+		"sameAs": []
+}</script>
   <meta name="theme-color" content="#478ac9">
   <meta property="og:title" content="Home">
   <meta property="og:type" content="website">
 </head>
 
-<body class="u-body">
+<body data-home-page="Home.php" data-home-page-title="Home" class="u-body">
   <header class="u-clearfix u-header u-image u-header" id="sec-1696" data-image-width="900" data-image-height="600">
     <div class="u-clearfix u-sheet u-sheet-1">
       <div class="u-list u-list-1">
         <div class="u-repeater u-repeater-1">
-          <?php
-          ob_start();
-          include("quadro.php");
-          $html = ob_get_clean();
-          $variavel = "";
-          if ($_SESSION) {
-            echo $html;
-          }
-          ?>
+          
         </div>
       </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500"
-        data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600"
+        data-image-height="756" title="Home">
+        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
       </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-        <div class="menu-collapse"
-          style="font-size: 1rem; letter-spacing: 1px; font-weight: 700; text-transform: uppercase;">
+      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
           <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
             href="#">
             <svg>
@@ -77,23 +65,23 @@ session_start();
           </a>
         </div>
         <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-30 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0"
+          <ul class="u-nav u-spacing-10 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0"
             data-animation-delay="0" data-animation-direction="">
             <li class="u-nav-item"><a
-                class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90"
-                href="Home.php" style="padding: 10px 0px;">Home</a>
+                class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
+                href="Home.php" style="padding: 10px 20px;">Home</a>
             </li>
             <li class="u-nav-item"><a
-                class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90"
-                href="Visualizador.php" style="padding: 10px 0px;">Visualizador</a>
+                class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
+                href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
             </li>
             <li class="u-nav-item"><a
-                class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90"
-                href="Cadastre-se.php" style="padding: 10px 0px;">Cadastre-se</a>
+                class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
+                href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
             </li>
             <li class="u-nav-item"><a
-                class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90"
-                href="indexLogin.php" style="padding: 10px 0px;">Login</a>
+                class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
+                href="indexLogin.php" style="padding: 10px 20px;">Login</a>
             </li>
           </ul>
         </div>
@@ -122,19 +110,21 @@ session_start();
       </nav>
     </div>
   </header>
-  <section class="u-clearfix u-gradient u-section-1" id="carousel_b9eb">
+  <section class="u-clearfix u-section-1" id="carousel_b9eb">
     <img class="u-expanded-width u-image u-image-1" src="images/pexels-photo-3443934.jpeg" data-image-width="1200"
       data-image-height="1500">
     <div
-      class="u-align-center u-border-20 u-border-custom-color-1 u-container-style u-group u-radius-9 u-shape-round u-group-1">
+      class="u-align-center u-border-20 u-border-palette-3-base u-container-style u-group u-shape-rectangle u-group-1">
       <div class="u-container-layout u-container-layout-1">
-        <img class="u-align-center u-image u-image-2" src="images/WhatsAppImage2021-11-22at11.26.29.jpeg"
-          data-image-width="500" data-image-height="500">
+        <img class="u-align-center u-image u-image-2" src="images/logo.png" data-image-width="600"
+          data-image-height="756">
+        <h3 class="u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-default u-text-1">
+          Projeto<br>Vigilante Comunitário
+        </h3>
       </div>
     </div>
     <a href="Cadastre-se.php"
-      class="u-border-none u-btn u-button-style u-hover-custom-color-1 u-palette-3-base u-text-body-color u-btn-1">cadastre-se
-      grátis</a>
+      class="u-black u-border-none u-btn u-button-style u-text-palette-3-base u-btn-1">cadastre-se grátis</a>
   </section>
   <section class="u-clearfix u-section-2" id="sec-466f">
     <div class="u-clearfix u-sheet u-sheet-1">
@@ -146,11 +136,11 @@ session_start();
                 <div class="u-align-center-sm u-align-center-xs u-list u-list-1">
                   <div class="u-repeater u-repeater-1">
                     <div
-                      class="u-container-style u-custom-color-1 u-custom-item u-list-item u-radius-50 u-repeater-item u-shape-round">
+                      class="u-container-style u-custom-item u-list-item u-palette-3-light-1 u-radius-50 u-repeater-item u-shape-round">
                       <div class="u-container-layout u-similar-container u-container-layout-2">
                         <h1 class="u-align-center u-custom-item u-text u-text-default u-text-1">Câmeras Compartilhadas
                         </h1>
-                        <h1 class="u-text u-text-default u-title u-text-2" data-animation-event="scroll"
+                        <h1 class="u-text u-text-black u-text-default u-title u-text-2" data-animation-event="scroll"
                           data-animation-name="counter" data-animation-duration="3000" data-animation-delay="0"
                           data-animation-direction="" style="font-size: 200px;">72</h1>
                       </div>
@@ -348,17 +338,6 @@ session_start();
 
   <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a">
     <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500"
-        data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
-      </a>
-      <p
-        class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1">
-        O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para
-        criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre
-        alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas
-        Mendes.
-      </p>
       <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
         <a class="u-social-url" title="facebook" target="_blank" href=""><span
             class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link"
@@ -412,6 +391,17 @@ session_start();
             </svg></span>
         </a>
       </div>
+      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600"
+        data-image-height="756" title="Home">
+        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
+      </a>
+      <p
+        class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1">
+        O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para
+        criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre
+        alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas
+        Mendes.
+      </p>
     </div>
   </footer>
 </body>
