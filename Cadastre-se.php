@@ -35,73 +35,62 @@ session_start();
 </head>
 
 <body class="u-body">
-  <header class="u-clearfix u-header u-image u-header" id="sec-1696" data-image-width="900" data-image-height="600">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <?php
-          ob_start();
-          include("quadro.php");
-          $html = ob_get_clean();
-          $variavel = "";
-          if ($_SESSION) {
-            echo $html;
-          }
-          ?>
-        </div>
+  <header class="u-clearfix u-header u-header" id="sec-1696">
+    <div class="u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        
       </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
-      </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700; text-transform: uppercase;">
-          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-            </svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs>
-                <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-                  <rect y="1" width="16" height="2"></rect>
-                  <rect y="7" width="16" height="2"></rect>
-                  <rect y="13" width="16" height="2"></rect>
-                </symbol>
-              </defs>
-            </svg>
-          </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-30 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 0px;">Home</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 0px;">Visualizador</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 0px;">Cadastre-se</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 0px;">Login</a>
-            </li>
-          </ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-inner-container-layout u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav>
     </div>
+    <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
+      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+        <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
+          </svg>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
+                <rect y="1" width="16" height="2"></rect>
+                <rect y="7" width="16" height="2"></rect>
+                <rect y="13" width="16" height="2"></rect>
+              </symbol>
+            </defs>
+          </svg>
+        </a>
+      </div>
+      <div class="u-custom-menu u-nav-container">
+        <ul class="u-nav u-spacing-2 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Home.php" style="padding: 10px 20px;">Home</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="u-custom-menu u-nav-container-collapse">
+        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+          <div class="u-inner-container-layout u-sidenav-overflow">
+            <div class="u-menu-close"></div>
+            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+      </div>
+    </nav><a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+      <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+    </a>
   </header>
   <section class="u-clearfix u-gradient u-valign-middle-xs u-section-1" id="carousel_780a">
     <div class="u-expanded-width u-shape u-shape-rectangle u-shape-1"></div>
@@ -111,44 +100,32 @@ session_start();
         <div class="u-layout-row">
           <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
             <div class="u-container-layout u-valign-bottom-xs u-container-layout-1">
-              <h3 class="u-text u-text-body-alt-color u-text-default u-text-1"> Junte-se a NÓS E TORNE-SE TAMBÉM UM VIGILANTE</h3>
-              <h6 class="u-custom-font u-text u-text-font u-text-2"> Acesse gratuitamente todos os nossos conteúdos, se inscreva e acompanhe todas nossas atualizações.</h6>
+              <h3 class="u-text u-text-body-alt-color u-text-default u-text-1"> Junte-se a NÓS E TORNE-SE TAMBÉM UM
+                VIGILANTE</h3>
+              <h6 class="u-custom-font u-text u-text-font u-text-2"> Acesse gratuitamente todos os nossos conteúdos, se
+                inscreva e acompanhe todas nossas atualizações.</h6>
               <div class="u-hidden-md u-social-icons u-spacing-20 u-social-icons-1">
                 <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1">
                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f107"></use>
                     </svg>
                     <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f107" class="u-svg-content">
-                      <path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
+                      <path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
+                      </path>
                     </svg>
                   </span>
                 </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
-                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e140"></use>
-                    </svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-e140" class="u-svg-content">
-                      <path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path>
-                    </svg>
-                  </span>
-                </a>
-                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3">
+                <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-2">
                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4718"></use>
                     </svg>
                     <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4718" class="u-svg-content">
-                      <path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path>
-                      <path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path>
-                      <path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path>
-                    </svg>
-                  </span>
-                </a>
-                <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-4">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
-                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-438b"></use>
-                    </svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-438b" class="u-svg-content">
-                      <path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path>
+                      <path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z">
+                      </path>
+                      <path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z">
+                      </path>
+                      <path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z">
+                      </path>
                     </svg>
                   </span>
                 </a>
@@ -158,7 +135,7 @@ session_start();
           <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
             <div class="u-container-layout u-valign-top u-container-layout-2">
               <div class="u-form u-form-1">
-                <form action="cadastro.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px; margin-top: -30px" source="custom" name="form" redirect="true">
+              <form action="cadastro.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-30 u-form-vertical u-inner-form" style="padding: 10px; margin-top: -30px" source="custom" name="form" redirect="true">
                   <div class="u-form-group u-form-group-1">
                     <label for="text-3f05" class="u-form-control-hidden u-label u-text-body-alt-color u-label-1"></label>
                     <input type="text" placeholder="Nome" id="text-3f05" name="nome" class="u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-input u-input-rectangle u-text-white u-input-1" required="required">
@@ -205,14 +182,17 @@ session_start();
   </section>
 
 
-  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a">
-    <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-white u-footer" id="sec-770a">
+    <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
+      <a href="Home.php" data-page-id="224677288" class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
         <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
       </a>
-      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
+      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-1"> O
+        Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação
+        de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do
+        curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Douglas Mendes.
       </p>
-      <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
+      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-social-icons u-spacing-10 u-social-icons-1">
         <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c52c"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-c52c">
@@ -237,7 +217,8 @@ session_start();
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-1a9b">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
               <path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
-            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path>
+            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z">
+              </path>
               <path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path>
               <path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5

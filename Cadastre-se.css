@@ -48,25 +48,19 @@
   white-space: nowrap;
   height: 41px;
   min-height: 16px;
-  width: 224px;
-  min-width: 124px;
+  width: 102px;
+  min-width: 52px;
   margin: 30px 30px 0 auto;
 }
 
 .u-section-1 .u-icon-1 {
   height: 100%;
+  color: rgb(17, 17, 17) !important;
 }
 
 .u-section-1 .u-icon-2 {
   height: 100%;
-}
-
-.u-section-1 .u-icon-3 {
-  height: 100%;
-}
-
-.u-section-1 .u-icon-4 {
-  height: 100%;
+  color: rgb(17, 17, 17) !important;
 }
 
 .u-section-1 .u-layout-cell-2 {

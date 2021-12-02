@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 
@@ -17,7 +14,6 @@ session_start();
   <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
   <meta name="generator" content="Nicepage 3.29.1, nicepage.com">
   <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-  <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 
 
 
@@ -28,7 +24,7 @@ session_start();
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "",
-      "logo": "images/logo2.png",
+      "logo": "images/WhatsAppImage2021-11-22at11.26.29.jpeg",
       "sameAs": []
     }
   </script>
@@ -38,100 +34,162 @@ session_start();
 </head>
 
 <body data-home-page="Home.php" data-home-page-title="Home" class="u-body">
-  <header class="u-clearfix u-header u-image u-header" id="sec-1696" data-image-width="900" data-image-height="600">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <?php
-          ob_start();
-          include("quadro.php");
-          $html = ob_get_clean();
-          $variavel = "";
-          if ($_SESSION) {
-            echo $html;
-          }
-          ?>
-        </div>
-      </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
-        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
-      </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
-          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-            </svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs>
-                <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-                  <rect y="1" width="16" height="2"></rect>
-                  <rect y="7" width="16" height="2"></rect>
-                  <rect y="13" width="16" height="2"></rect>
-                </symbol>
-              </defs>
-            </svg>
-          </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-10 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 20px;">Home</a>
-            </li>
-            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
-            </li>
-            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
-            </li>
-            <li class="u-nav-item"><a class="u-active-palette-4-light-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-4-light-1 u-nav-link u-palette-5-light-2 u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
-            </li>
-          </ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-inner-container-layout u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
-                </li>
-              </ul>
-            </div>
+  <header class="u-clearfix u-header u-header" id="sec-1696">
+    <div class="u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <div class="u-align-left u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <div class="u-container-layout u-similar-container u-container-layout-1">
+            <p class="u-align-left u-text u-text-default u-text-1">Bem Vindo</p>
+            <h5 class="u-align-left u-text u-text-default u-text-2">Nome Sobrenome</h5>
+            <p class="u-align-left u-text u-text-default u-text-3">
+              <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://nicepage.com/wordpress-themes">SAIR</a>
+            </p>
           </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <section class="u-clearfix u-section-1" id="carousel_b9eb">
-    <img class="u-expanded-width u-image u-image-1" src="images/pexels-photo-3443934.jpeg" data-image-width="1200" data-image-height="1500">
-    <div class="u-align-center u-border-20 u-border-palette-3-base u-container-style u-group u-shape-rectangle u-group-1">
-      <div class="u-container-layout u-container-layout-1">
-        <img class="u-align-center u-image u-image-2" src="images/logo.png" data-image-width="600" data-image-height="756">
-        <h3 class="u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-default u-text-1">
-          Projeto<br>Vigilante Comunitário
-        </h3>
       </div>
     </div>
-    <a href="Cadastre-se.php" class="u-black u-border-none u-btn u-button-style u-text-palette-3-base u-btn-1">cadastre-se grátis</a>
+    <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
+      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+        <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
+          </svg>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
+                <rect y="1" width="16" height="2"></rect>
+                <rect y="7" width="16" height="2"></rect>
+                <rect y="13" width="16" height="2"></rect>
+              </symbol>
+            </defs>
+          </svg>
+        </a>
+      </div>
+      <div class="u-custom-menu u-nav-container">
+        <ul class="u-nav u-spacing-2 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Home.php" style="padding: 10px 20px;">Home</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="u-custom-menu u-nav-container-collapse">
+        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+          <div class="u-inner-container-layout u-sidenav-overflow">
+            <div class="u-menu-close"></div>
+            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+      </div>
+    </nav><a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+      <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+    </a>
+  </header>
+  <section class="u-clearfix u-gradient u-valign-middle u-section-1" id="carousel_b9eb">
+    <div class="u-carousel u-carousel-duration-1000 u-expanded-width u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-1" data-interval="2000" data-u-ride="carousel" id="carousel-09a3" data-pause="false">
+      <ol class="u-absolute-hcenter u-carousel-indicators u-hidden u-carousel-indicators-1">
+        <li data-u-target="#carousel-09a3" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+        <li data-u-target="#carousel-09a3" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+        <li data-u-target="#carousel-09a3" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+      </ol>
+      <div class="u-carousel-inner u-gallery-inner" role="listbox">
+        <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-1" data-image-width="1200" data-image-height="627">
+          <div class="u-back-slide">
+            <img class="u-back-image u-expanded" src="images/11610d39-3528-4b77-bec6-c945dde63258.jpg">
+          </div>
+          <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-1">
+            <h3 class="u-gallery-heading"></h3>
+            <p class="u-gallery-text"></p>
+          </div>
+        </div>
+        <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2" data-image-width="1000" data-image-height="708">
+          <div class="u-back-slide">
+            <img class="u-back-image u-expanded" src="images/3248c4ed-62fc-4ba7-ac90-775f62cf6e7b.jpg">
+          </div>
+          <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-2">
+            <h3 class="u-gallery-heading"></h3>
+            <p class="u-gallery-text"></p>
+          </div>
+        </div>
+        <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3" data-image-width="1280" data-image-height="720">
+          <div class="u-back-slide">
+            <img class="u-back-image u-expanded" src="images/68f2c6e5-129d-4883-9139-6e170d8031d5.jpg">
+          </div>
+          <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-3">
+            <h3 class="u-gallery-heading"></h3>
+            <p class="u-gallery-text"></p>
+          </div>
+        </div>
+      </div>
+      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-hidden u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-09a3" role="button" data-u-slide="prev">
+        <span aria-hidden="true">
+          <svg viewBox="0 0 451.847 451.847">
+            <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+          </svg>
+        </span>
+        <span class="sr-only">
+          <svg viewBox="0 0 451.847 451.847">
+            <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+          </svg>
+        </span>
+      </a>
+      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-hidden u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-09a3" role="button" data-u-slide="next">
+        <span aria-hidden="true">
+          <svg viewBox="0 0 451.846 451.847">
+            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+          </svg>
+        </span>
+        <span class="sr-only">
+          <svg viewBox="0 0 451.846 451.847">
+            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+          </svg>
+        </span>
+      </a>
+    </div>
+    <div class="u-align-center u-border-20 u-border-custom-color-1 u-container-style u-group u-radius-9 u-shape-round u-group-1">
+      <div class="u-container-layout u-container-layout-1">
+        <img class="u-align-center u-image u-image-1" src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" data-image-width="500" data-image-height="500">
+      </div>
+    </div>
+    <a href="Cadastre-se.php" class="u-align-center-sm u-align-center-xs u-border-none u-btn u-button-style u-hover-custom-color-1 u-palette-3-base u-text-body-color u-btn-1">cadastre-se
+      grátis</a>
   </section>
   <section class="u-clearfix u-section-2" id="sec-466f">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+    <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+      <div class="u-clearfix u-expanded-width u-gutter-24 u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
             <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-              <div class="u-container-layout u-valign-top u-container-layout-1">
-                <div class="u-align-center-sm u-align-center-xs u-list u-list-1">
+              <div class="u-container-layout u-valign-top-lg u-valign-top-xl u-container-layout-1">
+                <div class="u-align-center-sm u-align-center-xs u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
                   <div class="u-repeater u-repeater-1">
-                    <div class="u-container-style u-custom-item u-list-item u-palette-3-light-1 u-radius-50 u-repeater-item u-shape-round">
+                    <div class="u-container-style u-custom-color-1 u-custom-item u-list-item u-radius-50 u-repeater-item u-shape-round">
                       <div class="u-container-layout u-similar-container u-container-layout-2">
                         <h1 class="u-align-center u-custom-item u-text u-text-default u-text-1">Câmeras Compartilhadas
                         </h1>
-                        <h1 class="u-text u-text-black u-text-default u-title u-text-2" data-animation-event="scroll" data-animation-name="counter" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="" style="font-size: 200px;">72</h1>
+                        <h1 class="u-text u-text-default u-title u-text-2" data-animation-event="scroll" data-animation-name="counter" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="" style="font-size: 200px;">72</h1>
                       </div>
                     </div>
                   </div>
@@ -139,32 +197,33 @@ session_start();
               </div>
             </div>
             <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-              <div class="u-container-layout u-valign-bottom-xs u-container-layout-3">
-                <div class="u-align-left u-expanded-width-xs u-list u-list-2">
+              <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-container-layout-3">
+                <div class="u-align-left u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-list u-list-2">
                   <div class="u-repeater u-repeater-2">
                     <div class="u-align-center u-container-style u-custom-color-4 u-custom-item u-list-item u-radius-50 u-repeater-item u-shape-round">
-                      <div class="u-container-layout u-similar-container u-container-layout-4">
-                        <h1 class="u-custom-item u-text u-text-default u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">Usuários Vigilantes</h1>
+                      <div class="u-container-layout u-similar-container u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-4">
+                        <h1 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-custom-item u-text u-text-default-xl u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">
+                          Usuários Vigilantes</h1>
                       </div>
                     </div>
                     <div class="u-align-center u-container-style u-custom-color-3 u-custom-item u-list-item u-radius-50 u-repeater-item u-shape-round">
-                      <div class="u-container-layout u-similar-container u-container-layout-5">
-                        <h1 class="u-custom-item u-text u-text-default u-title u-text-4" data-animation-event="scroll" data-animation-name="counter" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="">100 </h1>
+                      <div class="u-container-layout u-similar-container u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-5">
+                        <h1 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-custom-item u-text u-text-default-xl u-title u-text-4" data-animation-event="scroll" data-animation-name="counter" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="">100 </h1>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="u-expanded-width-xs u-list u-list-3">
+                <div class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-list u-list-3">
                   <div class="u-repeater u-repeater-3">
                     <div class="u-container-style u-custom-item u-list-item u-palette-1-base u-radius-50 u-repeater-item u-shape-round">
-                      <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-6">
-                        <h1 class="u-align-center u-custom-item u-text u-text-default u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">
+                      <div class="u-container-layout u-similar-container u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-6">
+                        <h1 class="u-align-center u-custom-item u-text u-text-default-lg u-text-default-xl u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">
                           Alertas Gerados</h1>
                       </div>
                     </div>
                     <div class="u-align-left u-container-style u-custom-color-2 u-custom-item u-list-item u-radius-50 u-repeater-item u-shape-round">
-                      <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-7">
-                        <h1 class="u-custom-item u-text u-text-default u-title u-text-6" data-animation-event="scroll" data-animation-name="counter" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="">85</h1>
+                      <div class="u-container-layout u-similar-container u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-7">
+                        <h1 class="u-align-center-md u-align-center-sm u-align-center-xs u-custom-item u-text u-text-default-lg u-text-default-xl u-title u-text-6" data-animation-event="scroll" data-animation-name="counter" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="">85</h1>
                       </div>
                     </div>
                   </div>
@@ -177,8 +236,8 @@ session_start();
     </div>
   </section>
   <section class="u-clearfix u-gradient u-video-cover u-section-3" id="carousel_44d0">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <h1 class="u-text u-text-body-alt-color u-text-1">Conheça nosso projeto!</h1>
+    <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+      <h1 class="u-align-center-sm u-align-center-xs u-text u-text-body-alt-color u-text-1">Conheça nosso projeto!</h1>
       <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
@@ -196,7 +255,7 @@ session_start();
               <div class="u-container-layout u-container-layout-2">
                 <div class="u-align-center u-expanded-width-xs u-video u-video-contain u-video-1">
                   <div class="embed-responsive embed-responsive-1">
-                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/MBN1OLnLLMU?playlist=MBN1OLnLLMU&amp;loop=1&amp;mute=1&amp;showinfo=0&amp;controls=0&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/_1OF2QIsW8c?playlist=_1OF2QIsW8c&amp;loop=1&amp;mute=1&amp;showinfo=0&amp;controls=0&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
                   </div>
                 </div>
               </div>
@@ -283,9 +342,17 @@ session_start();
   </section>
 
 
-  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a">
-    <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-      <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
+  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-white u-footer" id="sec-770a">
+    <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
+      <a href="Home.php" data-page-id="224677288" class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+      </a>
+      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-1"> O
+        Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação
+        de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do
+        curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Douglas Mendes.
+      </p>
+      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-social-icons u-spacing-10 u-social-icons-1">
         <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c52c"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-c52c">
@@ -328,15 +395,6 @@ session_start();
             </svg></span>
         </a>
       </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="600" data-image-height="756" title="Home">
-        <img src="images/logo2.png" class="u-logo-image u-logo-image-1">
-      </a>
-      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1">
-        O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para
-        criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre
-        alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas
-        Mendes.
-      </p>
     </div>
   </footer>
 </body>

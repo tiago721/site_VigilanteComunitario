@@ -35,87 +35,78 @@ include('verifica_login.php');
 </head>
 
 <body class="u-body">
-  <header class="u-clearfix u-header u-image u-header" id="sec-1696" data-image-width="900" data-image-height="600">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <?php
-          ob_start();
-          include("quadro.php");
-          $html = ob_get_clean();
-          $variavel = "";
-          if ($_SESSION) {
-            echo $html;
-          }
-          ?>
+  <header class="u-clearfix u-header u-header" id="sec-1696">
+    <div class="u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <div class="u-align-left u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          
         </div>
       </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
-      </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700; text-transform: uppercase;">
-          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-            </svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs>
-                <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-                  <rect y="1" width="16" height="2"></rect>
-                  <rect y="7" width="16" height="2"></rect>
-                  <rect y="13" width="16" height="2"></rect>
-                </symbol>
-              </defs>
-            </svg>
-          </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-30 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 0px;">Home</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 0px;">Visualizador</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 0px;">Cadastre-se</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 0px;">Login</a>
-            </li>
-          </ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-inner-container-layout u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav>
     </div>
+    <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
+      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+        <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
+          </svg>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
+                <rect y="1" width="16" height="2"></rect>
+                <rect y="7" width="16" height="2"></rect>
+                <rect y="13" width="16" height="2"></rect>
+              </symbol>
+            </defs>
+          </svg>
+        </a>
+      </div>
+      <div class="u-custom-menu u-nav-container">
+        <ul class="u-nav u-spacing-2 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Home.php" style="padding: 10px 20px;">Home</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="u-custom-menu u-nav-container-collapse">
+        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+          <div class="u-inner-container-layout u-sidenav-overflow">
+            <div class="u-menu-close"></div>
+            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+      </div>
+    </nav><a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+      <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+    </a>
   </header>
   <section class="u-clearfix u-gradient u-section-1" id="sec-13e6">
-    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <div class="u-expanded-width u-list u-list-1">
+    <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-sm u-valign-middle-xl u-valign-middle-xs u-sheet-1">
+      <div class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-list u-list-1">
         <div class="u-repeater u-repeater-1">
           <div class="u-align-center u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
-              <h1 class="u-custom-item u-text u-text-custom-color-3 u-text-default u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="5000">72</h1>
+              <h1 class="u-custom-item u-text u-text-default u-text-palette-3-base u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="5000">72</h1>
               <p class="u-text u-text-body-alt-color u-text-2">Usuários Vigilantes</p>
             </div>
           </div>
           <div class="u-align-center u-container-style u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
-              <h1 class="u-custom-item u-text u-text-custom-color-2 u-text-default u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">100</h1>
+              <h1 class="u-custom-item u-text u-text-default u-text-palette-3-base u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">100</h1>
               <p class="u-text u-text-body-alt-color u-text-4">Alertas Gerados</p>
             </div>
           </div>
@@ -132,14 +123,14 @@ include('verifica_login.php');
   <section class="u-clearfix u-white u-section-2" id="sec-0af0">
 
     <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-align-center u-clearfix u-gutter-8 u-layout-wrap u-layout-wrap-1">
+      <div class="u-align-center u-clearfix u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gutter-8 u-layout-wrap u-layout-wrap-1">
         <div class="u-gutter-0 u-layout">
           <div class="u-layout-row">
-            <div class="u-container-style u-layout-cell u-size-12 u-layout-cell-1">
+            <div class="u-container-style u-layout-cell u-size-12-lg u-size-12-xl u-size-14-md u-size-14-sm u-size-14-xs u-layout-cell-1">
               <div class="u-container-layout u-container-layout-1">
                 <h2 class="u-align-center u-text u-text-1">Rede de Vigilancia Comunitári<span style="font-weight: 700;"></span>a
                 </h2>
-                <div class="u-list u-list-1">
+                <div class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
                   <div class="u-repeater u-repeater-1">
                     <div class="u-align-center u-border-1 u-border-grey-15 u-container-style u-list-item u-radius-5 u-repeater-item u-shape-round u-white u-list-item-1">
                       <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-align-left u-icon u-icon-circle u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
@@ -147,22 +138,26 @@ include('verifica_login.php');
                           </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-db22" style="enable-background:new 0 0 512 512;">
                             <g>
                               <g>
-                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z"></path>
+                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z"></path>
+                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z"></path>
+                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z"></path>
+                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z">
+                                </path>
                               </g>
                             </g>
                           </svg></span>
@@ -177,22 +172,26 @@ include('verifica_login.php');
                           </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-1f77" style="enable-background:new 0 0 512 512;">
                             <g>
                               <g>
-                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z"></path>
+                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z"></path>
+                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z"></path>
+                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z"></path>
+                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z">
+                                </path>
                               </g>
                             </g>
                           </svg></span>
@@ -207,22 +206,26 @@ include('verifica_login.php');
                           </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-39e9" style="enable-background:new 0 0 512 512;">
                             <g>
                               <g>
-                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z"></path>
+                                <path d="M439.669,481.888L238.293,375.264c-5.248-2.784-11.648-2.4-16.608,0.96L67.701,482.848c-5.76,4-8.256,11.264-6.144,17.952    c2.048,6.624,8.256,11.2,15.232,11.2h355.36c7.328,0,13.76-4.992,15.52-12.16C449.461,492.704,446.133,485.312,439.669,481.888z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z"></path>
+                                <path d="M507.061,451.488l-47.36-213.216c-1.152-5.216-4.832-9.472-9.792-11.424c-4.992-1.952-10.592-1.28-14.944,1.728    L280.949,335.2c-4.608,3.2-7.2,8.544-6.848,14.08c0.32,5.6,3.552,10.592,8.48,13.184l201.344,106.624    c2.368,1.248,4.928,1.888,7.488,1.888c3.424,0,6.848-1.088,9.696-3.296C506.069,463.904,508.405,457.6,507.061,451.488z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z"></path>
+                                <path d="M395.637,203.232c-2.112-6.688-8.288-11.232-15.296-11.232H234.293c-26.56,48.096-65.856,94.08-82.016,112.064    C143.189,314.176,130.165,320,116.565,320s-26.624-5.824-35.712-15.936c-6.24-6.944-15.904-18.048-26.976-31.808l-38.72,174.272    c-1.408,6.432,1.248,13.056,6.688,16.736c2.688,1.824,5.824,2.72,8.928,2.72c3.2,0,6.368-0.928,9.12-2.848L389.429,221.12    C395.221,217.184,397.685,209.92,395.637,203.232z">
+                                </path>
                               </g>
                             </g>
                             <g>
                               <g>
-                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z"></path>
+                                <path d="M116.565,0c-61.76,0-112,50.24-112,112c0,57.472,89.856,159.264,100.096,170.688c3.04,3.36,7.36,5.312,11.904,5.312    s8.864-1.952,11.904-5.312C138.709,271.264,228.565,169.472,228.565,112C228.565,50.24,178.325,0,116.565,0z M116.565,160    c-26.496,0-48-21.504-48-48c0-26.496,21.504-48,48-48c26.496,0,48,21.504,48,48C164.565,138.496,143.061,160,116.565,160z">
+                                </path>
                               </g>
                             </g>
                           </svg></span>
@@ -235,9 +238,9 @@ include('verifica_login.php');
                 </div>
               </div>
             </div>
-            <div class="u-align-left u-container-style u-layout-cell u-size-33 u-layout-cell-2">
+            <div class="u-align-left u-container-style u-layout-cell u-size-31-md u-size-31-sm u-size-31-xs u-size-33-lg u-size-33-xl u-layout-cell-2">
               <div class="u-container-layout u-container-layout-5">
-                <div class="u-border-1 u-border-grey-15 u-container-style u-group u-radius-20 u-shape-round u-white u-group-1">
+                <div class="u-border-1 u-border-grey-15 u-container-style u-expanded-width-xs u-group u-radius-20 u-shape-round u-white u-group-1">
                   <div class="u-container-layout u-container-layout-6">
                     <div class="u-clearfix u-custom-html u-custom-html-1">
                       <meta charset="UTF-8">
@@ -286,54 +289,14 @@ include('verifica_login.php');
             </div>
             <div class="u-container-style u-layout-cell u-size-15 u-layout-cell-3">
               <div class="u-container-layout u-container-layout-7">
-                <div class="u-container-style u-grey-10 u-group u-radius-27 u-shape-round u-group-2"style="width: 560px; overflow-y: scroll;">
-                  <div class="u-container-layout u-valign-middle">
-                    <div class="container d-flex justify-content-center mt-100 mb-100" style="height: 680px;">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="card">
-                            <div class="card-body">
-                              <h4 class="card-title">Recent Comments</h4>
-                              <h6 class="card-subtitle">Latest Comments section by users</h6>
-                            </div>
-                            <div class="comment-widgets m-b-20">
-                              <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/uIgDDDd.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text w-100">
-                                  <h5>Samso Nagaro</h5>
-                                  <div class="comment-footer"> <span class="date">April 14, 2019</span> <span class="label label-info">Pending</span> <span class="action-icons"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
-                                </div>
-                              </div>
-                              <div class="d-flex flex-row comment-row ">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/tT8rjKC.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text active w-100">
-                                  <h5>Jonty Andrews</h5>
-                                  <div class="comment-footer"> <span class="date">March 13, 2020</span> <span class="label label-success">Approved</span> <span class="action-icons active"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right text-success"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart text-danger"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites</p>
-                                </div>
-                              </div>
-                              <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/cAdLHeY.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text w-100">
-                                  <h5>Sarah Tim</h5>
-                                  <div class="comment-footer"> <span class="date">Jan 20, 2020</span> <span class="label label-danger">Rejected</span> <span class="action-icons"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
-                                </div>
-                              </div>
-                              <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="https://i.imgur.com/uIgDDDd.jpg" alt="user" width="50"></span></div>
-                                <div class="comment-text w-100">
-                                  <h5>Samso Nagaro</h5>
-                                  <div class="comment-footer"> <span class="date">March 20, 2020</span> <span class="label label-info">Pending</span> <span class="action-icons"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart"></i></a> </span> </div>
-                                  <p class="m-b-5 m-t-10">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                <div class="u-container-style u-expanded-width-sm u-expanded-width-xs u-grey-10 u-group u-radius-27 u-shape-round u-group-2">
+                  <div class="u-container-layout u-valign-middle u-container-layout-8">
+                    <p class="u-align-center u-text u-text-11">Feed de Recados em desenvolvimento</p>
+                  </div>
+                </div>
+                <div class="u-container-style u-expanded-width-sm u-expanded-width-xs u-grey-10 u-group u-radius-27 u-shape-round u-group-3">
+                  <div class="u-container-layout u-valign-middle-xl u-container-layout-9">
+                    <p class="u-align-center u-text u-text-12">Area de Mensagens</p>
                   </div>
                 </div>
               </div>
@@ -345,14 +308,17 @@ include('verifica_login.php');
   </section>
 
 
-  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a">
-    <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-white u-footer" id="sec-770a">
+    <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
+      <a href="Home.php" data-page-id="224677288" class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
         <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
       </a>
-      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
+      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-1"> O
+        Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação
+        de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do
+        curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Douglas Mendes.
       </p>
-      <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
+      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-social-icons u-spacing-10 u-social-icons-1">
         <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c52c"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-c52c">
@@ -377,7 +343,8 @@ include('verifica_login.php');
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-1a9b">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
               <path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
-            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path>
+            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z">
+              </path>
               <path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path>
               <path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5

@@ -35,84 +35,74 @@ session_start();
 </head>
 
 <body class="u-body">
-  <header class="u-clearfix u-header u-image u-header" id="sec-1696" data-image-width="900" data-image-height="600">
-    <div class="u-clearfix u-sheet u-sheet-1">
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <?php
-          ob_start();
-          include("quadro.php");
-          $html = ob_get_clean();
-          $variavel = "";
-          if ($_SESSION) {
-            echo $html;
-          }
-          ?>
-        </div>
+  <header class="u-clearfix u-header u-header" id="sec-1696">
+    <div class="u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        
       </div>
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
-        <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
-      </a>
-      <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 1px; font-weight: 700; text-transform: uppercase;">
-          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-            <svg>
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
-            </svg>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs>
-                <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
-                  <rect y="1" width="16" height="2"></rect>
-                  <rect y="7" width="16" height="2"></rect>
-                  <rect y="13" width="16" height="2"></rect>
-                </symbol>
-              </defs>
-            </svg>
-          </a>
-        </div>
-        <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-spacing-30 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Home.php" style="padding: 10px 0px;">Home</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Visualizador.php" style="padding: 10px 0px;">Visualizador</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Cadastre-se.php" style="padding: 10px 0px;">Cadastre-se</a>
-            </li>
-            <li class="u-nav-item"><a class="u-border-3 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="indexLogin.php" style="padding: 10px 0px;">Login</a>
-            </li>
-          </ul>
-        </div>
-        <div class="u-custom-menu u-nav-container-collapse">
-          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-            <div class="u-inner-container-layout u-sidenav-overflow">
-              <div class="u-menu-close"></div>
-              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
-                </li>
-                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-        </div>
-      </nav>
     </div>
+    <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
+      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+        <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
+          </svg>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;">
+                <rect y="1" width="16" height="2"></rect>
+                <rect y="7" width="16" height="2"></rect>
+                <rect y="13" width="16" height="2"></rect>
+              </symbol>
+            </defs>
+          </svg>
+        </a>
+      </div>
+      <div class="u-custom-menu u-nav-container">
+        <ul class="u-nav u-spacing-2 u-unstyled u-nav-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Home.php" style="padding: 10px 20px;">Home</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+          </li>
+          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="u-custom-menu u-nav-container-collapse">
+        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+          <div class="u-inner-container-layout u-sidenav-overflow">
+            <div class="u-menu-close"></div>
+            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.php" style="padding: 10px 20px;">Home</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
+              </li>
+              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+      </div>
+    </nav><a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+      <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
+    </a>
   </header>
   <section class="u-align-center u-clearfix u-gradient u-section-1" id="carousel_1736">
-    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <div class="u-align-center u-container-style u-group u-shape-rectangle u-white u-group-1">
-        <div class="u-container-layout u-valign-middle u-container-layout-1">
-          <h2 class="u-custom-font u-font-pt-sans u-text u-text-custom-color-1 u-text-default u-text-1">Entrar</h2>
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <img class="u-expanded-width-sm u-image u-image-default u-image-1" src="images/Untitled-2.png" alt="" data-image-width="688" data-image-height="432">
+      <div class="u-align-center u-container-style u-expanded-width-xs u-group u-shape-rectangle u-group-1">
+        <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-container-layout-1">
+          <h2 class="u-custom-font u-font-pt-sans u-text u-text-body-alt-color u-text-default u-text-1">Entrar</h2>
           <h5 class="u-custom-font u-font-lato u-text u-text-default u-text-2">
-            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-5 u-text-palette-1-dark-1 u-btn-1" href="Cadastre-se.php" data-page-id="2728104555">Ainda não é cadastrado? Acesse Aqui!</a>
+            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-5 u-text-white u-btn-1" href="Cadastre-se.php" data-page-id="2728104555">Ainda não é cadastrado? Acesse Aqui!</a>
           </h5>
           <div class="u-form u-form-1">
-          <form action="login.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-16 u-form-vertical u-inner-form" style="padding: 9px;" source="custom" name="form" redirect="true">
+            <form action="login.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-16 u-form-vertical u-inner-form" style="padding: 9px;" source="custom" name="form" redirect="true">
               <div class="u-form-email u-form-group">
                 <label for="email-780d" class="u-form-control-hidden u-label u-label-1">Email</label>
                 <input type="text" placeholder="Usuário" id="email-780d" name="usuario" class="u-grey-10 u-input u-input-rectangle u-input-1" required="">
@@ -131,7 +121,7 @@ session_start();
             </form>
           </div>
           <p class="u-text u-text-3">
-            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" href="" data-page-id="541209197">Esqueci a senha</a>
+            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-grey-80 u-text-hover-custom-color-5 u-btn-3" href="Home.php" data-page-id="541209197">Esqueci a senha</a>
           </p>
         </div>
       </div>
@@ -139,14 +129,17 @@ session_start();
   </section>
 
 
-  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-770a">
-    <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-      <a href="Home.php" data-page-id="224677288" class="u-align-left u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
+  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-white u-footer" id="sec-770a">
+    <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
+      <a href="Home.php" data-page-id="224677288" class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-image u-logo u-image-1" data-image-width="500" data-image-height="500" title="Home">
         <img src="images/WhatsAppImage2021-11-22at11.26.29.jpeg" class="u-logo-image u-logo-image-1">
       </a>
-      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-grey-25 u-text-1"> O Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Dolglas Mendes.
+      <p class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-text u-text-1"> O
+        Vigilante Cominitário é uma plataforma digital que atua na gestão de câmeras de seguranças atuando para criação
+        de uma rede comunitária de monitoramento.<br>Trata-se de uma iniciativa academica desenvolvida entre alunos do
+        curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Douglas Mendes.
       </p>
-      <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
+      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-social-icons u-spacing-10 u-social-icons-1">
         <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c52c"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-c52c">
@@ -171,7 +164,8 @@ session_start();
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-1a9b">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
               <path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
-            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path>
+            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z">
+              </path>
               <path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path>
               <path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
