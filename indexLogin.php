@@ -38,7 +38,21 @@ session_start();
   <header class="u-clearfix u-header u-header" id="sec-1696">
     <div class="u-list u-list-1">
       <div class="u-repeater u-repeater-1">
-        
+        <?php
+        ob_start();
+        include("quadro.php");
+        $html = ob_get_clean();
+        $variavel = "";
+        ob_start();
+        include("quadro2.php");
+        $html2 = ob_get_clean();
+        $variavel2 = "";
+        if ($_SESSION) {
+          echo $html;
+        } else {
+          echo $html2;
+        }
+        ?>
       </div>
     </div>
     <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
@@ -65,9 +79,6 @@ session_start();
           <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
           </li>
           <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
-          </li>
-          <li class="u-nav-item"><a class="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-grey-10 u-nav-link u-radius-50 u-text-active-grey-90 u-text-grey-90 u-text-hover-black" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
-          </li>
         </ul>
       </div>
       <div class="u-custom-menu u-nav-container-collapse">
@@ -80,9 +91,6 @@ session_start();
               <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Visualizador.php" style="padding: 10px 20px;">Visualizador</a>
               </li>
               <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Cadastre-se.php" style="padding: 10px 20px;">Cadastre-se</a>
-              </li>
-              <li class="u-nav-item"><a class="u-button-style u-nav-link" href="indexLogin.php" style="padding: 10px 20px;">Login</a>
-              </li>
             </ul>
           </div>
         </div>
@@ -140,7 +148,7 @@ session_start();
         curso Alalise e Desenvolvimento de Sistemas da Estácio - Curitiba coordenado pelo professor Douglas Mendes.
       </p>
       <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-social-icons u-spacing-10 u-social-icons-1">
-        <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+        <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c52c"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-c52c">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -148,7 +156,7 @@ session_start();
             c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path>
             </svg></span>
         </a>
-        <a class="u-social-url" title="twitter" target="_blank" href=""><span class="u-icon u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+        <a class="u-social-url" title="twitter" target="_blank" href=""><span class="u-icon u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e81f"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-e81f">
               <circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle>
@@ -159,7 +167,7 @@ session_start();
             c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path>
             </svg></span>
         </a>
-        <a class="u-social-url" title="instagram" target="_blank" href=""><span class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+        <a class="u-social-url" title="instagram" target="_blank" href=""><span class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1a9b"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-1a9b">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
@@ -172,7 +180,7 @@ session_start();
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path>
             </svg></span>
         </a>
-        <a class="u-social-url" title="linkedin" target="_blank" href=""><span class="u-icon u-social-icon u-social-linkedin u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+        <a class="u-social-url" title="linkedin" target="_blank" href=""><span class="u-icon u-social-icon u-social-linkedin u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-25e4"></use>
             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-25e4">
               <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
