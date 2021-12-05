@@ -147,6 +147,16 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .move-box {
+    margin-left: 10px;
+  } 
+  .move-cabecalho {
+    margin-bottom: 10px;
+  } 
+  .move-menu {
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -187,4 +197,10 @@
     margin-right: 0;
     margin-left: 20px;
   }
+}
+
+@media (min-width: 770px) {
+  .move-box2 {
+    margin-left: 860px;
+  } 
 }

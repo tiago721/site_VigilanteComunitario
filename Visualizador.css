@@ -677,6 +677,16 @@
   .u-section-2 .u-text-12 {
     margin-top: 105px;
   }
+
+  .move-box {
+    margin-left: 10px;
+  } 
+  .move-cabecalho {
+    margin-bottom: 10px;
+  } 
+  .move-menu {
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -741,4 +751,11 @@
 
 .u-section-2 .u-layout-cell-1:not([data-block-selected]) {
   transition-property: fill, color, background-image, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform !important;
+}
+
+
+@media (min-width: 770px) {
+  .move-box2 {
+    margin-left: 860px;
+  } 
 }

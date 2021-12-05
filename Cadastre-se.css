@@ -233,6 +233,16 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  
+  .move-box {
+    margin-left: 10px;
+  } 
+  .move-cabecalho {
+    margin-bottom: 10px;
+  } 
+  .move-menu {
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -247,7 +257,7 @@
   .u-section-1 .u-image-1 {
     width: 340px;
     height: 204px;
-    margin-top: 112px;
+    margin-top: 170px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -267,4 +277,10 @@
   .u-section-1 .u-social-icons-1 {
     margin-right: 55px;
   }
+}
+
+@media (min-width: 770px) {
+  .move-box2 {
+    margin-left: 860px;
+  } 
 }

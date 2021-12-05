@@ -35,7 +35,7 @@ session_start();
 </head>
 
 <body class="u-body">
-  <header class="u-clearfix u-header u-header" id="sec-1696">
+  <header class="move-cabecalho u-clearfix u-header u-header" id="sec-1696">
     <div class="u-list u-list-1">
       <div class="u-repeater u-repeater-1">
         <?php
@@ -56,7 +56,7 @@ session_start();
       </div>
     </div>
     <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+      <div class="move-menu menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
         <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
           <svg>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
@@ -102,7 +102,7 @@ session_start();
   </header>
   <section class="u-clearfix u-gradient u-valign-middle-xs u-section-1" id="carousel_780a">
     <div class="u-expanded-width u-shape u-shape-rectangle u-shape-1"></div>
-    <img class="u-image u-image-default u-image-1" src="images/Untitled-2.png" alt="" data-image-width="688" data-image-height="432">
+    <img style="margin-bottom: -85px;" class="move-img u-image u-image-default u-image-1" src="images/Untitled-2.png" alt="" data-image-width="688" data-image-height="432">
     <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
       <div class="u-layout">
         <div class="u-layout-row">
